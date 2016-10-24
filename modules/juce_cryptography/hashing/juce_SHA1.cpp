@@ -264,6 +264,25 @@ public:
         }
     }
 
+    void testDeterminisicUuid()
+    {
+        String test("www.example.org");
+
+        MemoryBlock block;
+        block.append(Uuid::namespaceDns.getRawData(),
+                     Uuid::getRawDataSize());
+        block.append(test.toRawUTF8(), test.getNumBytesAsUTF8());
+
+        SHA1 hash (block);
+
+        expectEquals(hash.toHexString(),
+                     String("74738ff55367e9589aee98fffdcd187694028007"));
+
+        Uuid uuid = Uuid::fromSHA1(hash.getRawData());
+        expectEquals(uuid.toDashedString(),
+                     String("74738ff5-5367-5958-9aee-98fffdcd1876"));
+    }
+
     void runTest() override
     {
         beginTest ("SHA1");
@@ -271,6 +290,9 @@ public:
         test ("", "da39a3ee5e6b4b0d3255bfef95601890afd80709");
         test ("The quick brown fox jumps over the lazy dog",  "2fd4e1c67a2d28fced849ee1bb76e7391b93eb12");
         test ("The quick brown fox jumps over the lazy dog.", "408d94384216f890ff7a0c3528e8bed1e0b01621");
+
+        beginTest("SHA1 Uuids");
+        testDeterminisicUuid();
     }
 };
 
