@@ -306,6 +306,7 @@
 		31D10C8C52F768510A6AF82B = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_SplashScreen.h"; path = "../../../../../modules/juce_gui_extra/misc/juce_SplashScreen.h"; sourceTree = "SOURCE_ROOT"; };
 		324FF82D44A36CE21E199A65 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_GlowEffect.cpp"; path = "../../../../../modules/juce_graphics/effects/juce_GlowEffect.cpp"; sourceTree = "SOURCE_ROOT"; };
 		3257922119D32A2D24487F55 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_TimeSliceThread.cpp"; path = "../../../../../modules/juce_core/threads/juce_TimeSliceThread.cpp"; sourceTree = "SOURCE_ROOT"; };
+		32EE2DA0B379D05051D5AB7B = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_SHA1.h"; path = "../../../../../modules/juce_cryptography/hashing/juce_SHA1.h"; sourceTree = "SOURCE_ROOT"; };
 		333F2DC673517751AEC86933 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_OpenGL_android.h"; path = "../../../../../modules/juce_opengl/native/juce_OpenGL_android.h"; sourceTree = "SOURCE_ROOT"; };
 		33699837BFD1EEBC798972D8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_LookAndFeel.cpp"; path = "../../../../../modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.cpp"; sourceTree = "SOURCE_ROOT"; };
 		344AB722C38FBD9CA6D9DC44 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = window.h; path = "../../../../../modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.2/lib/window.h"; sourceTree = "SOURCE_ROOT"; };
@@ -914,6 +915,7 @@
 		A62A0E6F7C8143ACCED8F99D = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_ChoicePropertyComponent.h"; path = "../../../../../modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h"; sourceTree = "SOURCE_ROOT"; };
 		A63ED5CB6CDBBB4CAEC5736F = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_DropShadowEffect.h"; path = "../../../../../modules/juce_graphics/effects/juce_DropShadowEffect.h"; sourceTree = "SOURCE_ROOT"; };
 		A6A099AD6F5CE820FEED5566 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_CallOutBox.cpp"; path = "../../../../../modules/juce_gui_basics/windows/juce_CallOutBox.cpp"; sourceTree = "SOURCE_ROOT"; };
+		A770B30B1AE8764A8943C231 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_SHA1.cpp"; path = "../../../../../modules/juce_cryptography/hashing/juce_SHA1.cpp"; sourceTree = "SOURCE_ROOT"; };
 		A775EFBD797850441FB5F39A = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_SparseSet.h"; path = "../../../../../modules/juce_core/containers/juce_SparseSet.h"; sourceTree = "SOURCE_ROOT"; };
 		A7ECD33814EEC8F1D43724B6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUCarbonViewBase.h; path = "../../../../../modules/juce_audio_plugin_client/AU/CoreAudioUtilityClasses/AUCarbonViewBase.h"; sourceTree = "SOURCE_ROOT"; };
 		A80CD649786E1446CC6BEE92 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = block.c; path = "../../../../../modules/juce_audio_formats/codecs/oggvorbis/libvorbis-1.3.2/lib/block.c"; sourceTree = "SOURCE_ROOT"; };
@@ -2121,6 +2123,8 @@
 		F46388B21B4EE793B2EC3749 = {isa = PBXGroup; children = (
 					11E14E8A662CFDE4D354F342,
 					2132A2525A62FA2A08AF56E6,
+					A770B30B1AE8764A8943C231,
+					32EE2DA0B379D05051D5AB7B,
 					2BC2C95249F61193FAA46A13,
 					39766E76CFB6FC928E8716AF,
 					3FEC0FF0FCD8B695FB7B8FA5,

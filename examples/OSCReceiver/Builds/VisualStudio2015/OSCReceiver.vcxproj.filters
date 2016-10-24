@@ -532,6 +532,9 @@
     <ClCompile Include="..\..\..\..\modules\juce_cryptography\hashing\juce_MD5.cpp">
       <Filter>Juce Modules\juce_cryptography\hashing</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\modules\juce_cryptography\hashing\juce_SHA1.cpp">
+      <Filter>Juce Modules\juce_cryptography\hashing</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_cryptography\hashing\juce_SHA256.cpp">
       <Filter>Juce Modules\juce_cryptography\hashing</Filter>
     </ClCompile>
@@ -1855,6 +1858,9 @@
       <Filter>Juce Modules\juce_cryptography\encryption</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_cryptography\hashing\juce_MD5.h">
+      <Filter>Juce Modules\juce_cryptography\hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\modules\juce_cryptography\hashing\juce_SHA1.h">
       <Filter>Juce Modules\juce_cryptography\hashing</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_cryptography\hashing\juce_SHA256.h">
